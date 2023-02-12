@@ -1,0 +1,13 @@
+device: 0
+log_dir: "./results/"
+data_dir: "./debias_datasets/mnist/"
+dataset_tag: 
+main_tag: 
+model_tag: 'MLP'
+target_attr_idx: 0
+bias_attr_idx: 1
+main_num_epoch: 200
+main_batch_size: 256
+main_optimizer_tag: 'Adam'
+main_learning_rate: 0.001
+main_weight_decay: 0.

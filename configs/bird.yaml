@@ -1,0 +1,16 @@
+device: 0
+log_dir: "./results/"
+data_dir: "./debias_datasets/waterbird/"
+dataset_tag: 
+main_tag:
+model_tag: 'ResNet18'
+target_attr_idx: 0
+bias_attr_idx: 1
+main_num_epoch: 100
+main_batch_size: 256
+main_optimizer_tag: 'Adam'
+main_learning_rate: 0.0001
+main_weight_decay: 0.
+
+
+
